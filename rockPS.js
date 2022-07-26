@@ -1,3 +1,5 @@
+alert("Type 'game()' in console to start match.");
+
 function game(){
 
 let userScore = 0;
