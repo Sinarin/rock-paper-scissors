@@ -1,0 +1,42 @@
+h1.headingmain {
+  color: rgba(255, 20, 20, 0.8);
+  text-decoration: underline wavy rgb(52, 132, 193);
+  display: flex;
+  justify-content: center;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result {
+  display: flex;
+  height: 20vh;
+  width: 30vw;
+  border: solid red 2px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.optionsrps {
+  display: flex;
+  padding: 2vw;
+  justify-content: space-evenly;
+  width: 30vw;
+  height: auto;
+  transition: all .07s ease;
+}
+
+.pick {
+  height: 4vw;
+  width: 6.5vw;
+  border-radius: 16px;
+  color: rgb(248, 192, 24);
+  background-color: rgb(52, 132, 193);
+  font-size: 1vw;
+  font-weight: 800;
+  
+}
